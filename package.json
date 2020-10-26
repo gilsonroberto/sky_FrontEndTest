@@ -1,0 +1,32 @@
+{
+  "name": "test-sky",
+  "version": "1.0.0",
+  "description": "Teste frontend SKY",
+  "main": "index.js",
+  "scripts": {
+    "build:watch": "webpack -w --mode development",
+    "build:prod": "webpack --mode production",
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gilsonroberto/sky_FrontEndTest.git"
+  },
+  "keywords": [
+    "frontend",
+    "test"
+  ],
+  "author": "Gilson Souza <gilsonroberto@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gilsonroberto/sky_FrontEndTest/issues"
+  },
+  "homepage": "https://github.com/gilsonroberto/sky_FrontEndTest#readme",
+  "devDependencies": {
+    "css-loader": "^3.6.0",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
